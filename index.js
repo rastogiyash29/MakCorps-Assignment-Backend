@@ -13,7 +13,7 @@ app.use(cors({
     credentials:true,
     origin:[
         'http://localhost:3000',
-        'https://assignment-frontend-seven.vercel.app'
+        'https://mak-corps-assignment-frontend.vercel.app'
     ]
 }));
 app.use('/',indexRouter);
